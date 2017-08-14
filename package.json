@@ -45,7 +45,7 @@
     "import-glob-loader": "^1.1.0",
     "inferno-test-utils": "^3.5.0",
     "jest": "^20.0.4",
-    "kube": "https://github.com/imperavi/kube",
+    "kube": "git+https://github.com/imperavi/kube.git",
     "node-sass": "^4.5.3",
     "nodemon": "^1.11.0",
     "sass-loader": "^6.0.5",
@@ -60,5 +60,19 @@
   },
   "engines": {
     "node": "8.0"
-  }
+  },
+  "name": "thread-website",
+  "version": "0.1.0",
+  "description": "Thread website",
+  "main": "./src/server/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/threadstudios/thread-website.git"
+  },
+  "author": "Paul Westerdale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/threadstudios/thread-website/issues"
+  },
+  "homepage": "https://github.com/threadstudios/thread-website#readme"
 }
