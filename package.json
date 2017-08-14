@@ -55,7 +55,6 @@
     "dev": "yarn threadbare dev",
     "build": "yarn threadbare build",
     "test": "jest",
-    "heroku-postbuild": "yarn build",
     "start": "node ./src/server/index.js"
   },
   "engines": {
