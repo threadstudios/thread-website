@@ -2700,9 +2700,9 @@ klaw@^1.0.0:
   optionalDependencies:
     graceful-fs "^4.1.9"
 
-"kube@https://github.com/imperavi/kube":
+"kube@git+https://github.com/imperavi/kube.git":
   version "6.1.0"
-  resolved "https://github.com/imperavi/kube#77bf81022ffbf577544d1c202d366bf60a26f3f1"
+  resolved "git+https://github.com/imperavi/kube.git#77bf81022ffbf577544d1c202d366bf60a26f3f1"
 
 latest-version@^1.0.0:
   version "1.0.1"
