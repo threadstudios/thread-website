@@ -1,0 +1,28 @@
+.clients {
+    max-width: 768px;
+    margin: 0 auto;
+    position: relative;
+    &:before {
+        content: "";
+        position: relative;
+        display: block;
+        width: 86px;
+        height: 1px;
+        background: #fff;
+        margin: 24px auto;
+    }
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 24px;
+    }
+    ul li {
+        padding: 16px 24px;
+        display: inline-flex;
+        img {
+            max-height: 96px;
+            vertical-align: middle;
+        }
+    }
+}

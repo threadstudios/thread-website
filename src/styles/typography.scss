@@ -1,0 +1,44 @@
+h1 {
+    color: #efefef;
+    font-family: "montserrat";
+    font-size: rem(36);
+    text-transform: uppercase;
+    letter-spacing: 0.75rem;
+    line-height: 1.4;
+    span {
+        display: block;
+        font-size: rem(22);
+    }
+}
+
+h2 {
+    color: #EAE6E6;
+    font-family: "futura-pt";
+    font-size: rem(18);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 0.33rem;
+}
+
+h3 {
+    color: #EAE6E6;
+    font-family: "futura-pt";
+    font-size: rem(14);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 0.23rem;
+    line-height: 1.4;
+}
+
+body {
+    color: #dadada;
+    font-family: "proxima-nova";
+}
+
+p {
+    line-height: 1.35;
+    font-size: rem(16);
+    margin-bottom: 16px;
+}

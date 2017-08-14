@@ -1,0 +1,122 @@
+{
+    "url" : "/",
+    "meta" : {
+        "title" : "Thread Studios - Website Development",
+        "description" : "Website and application development done right. Using the latest in technology to further your business."
+    },
+    "components" : [
+        {
+            "type" : "Navigation",
+            "content" : {
+                "logo" : "/images/logo.svg",
+                "links" : []
+            }
+        },
+        {
+            "type" : "BasicContent",
+            "className" : "introduction",
+            "content" : {
+                "content" : "Thread Studios is a web & application development studio. We specialise in providing new inspiring solutions using the best technology on offer.\r\n\r\nWith over 13 years of agency and contracting experience working for some of the largest UK brands and businesses.\n\n\n\nWhatever your idea, we can help you strategise and implement it."
+            }
+        },
+        {
+            "type" : "ClientProjects",
+            "className" : "clients",
+            "content" : {
+                "clients" : [
+                    {
+                        "name" : "Microsoft Studios - Rare",
+                        "project" : "Sea of Thieves",
+                        "details" : "Working with Microsofts last remaining UK gaming studio",
+                        "technology" : ["nodejs", "redis", "azure", "elasticsearch"],
+                        "logo" : "/images/microsoft-studios.svg",
+                        "secondary" : ""
+                    },
+                    {
+                        "name" : "Legalzoom",
+                        "project" : "Legalzoom - Online Conveyancing",
+                        "details" : "Online conveyancing through LegalZooms first UK business - Beaumont Legal",
+                        "technology" : ["php", "laravel", "javascript"],
+                        "logo" : "/images/legalzoom.svg",
+                        "secondary" : ""
+                    },
+                    {
+                        "name" : "Lloyds Black Horse",
+                        "project" : "Room58 - Financial Compliance Tool",
+                        "details" : "The self learning car project",
+                        "technology" : ["angular", "websockets", "vimeo"],
+                        "logo" : "/images/blackhorse.png",
+                        "secondary" : ""
+                    },
+                    {
+                        "name" : "Jaguar",
+                        "project" : "Self Learning Car Pt2",
+                        "details" : "The self learning car project",
+                        "technology" : ["angular", "websockets", "nodejs"],
+                        "logo" : "/images/jaguar.svg",
+                        "secondary" : ""
+                    },
+                    {
+                        "name" : "Land Rover",
+                        "project" : "Self Learning Car",
+                        "details" : "The self learning car project",
+                        "technology" : ["angular", "websockets", "nodejs"],
+                        "logo" : "/images/land-rover.png",
+                        "secondary" : ""
+                    },
+                    {
+                        "name" : "Dominos Pizza",
+                        "project" : "Domigoals",
+                        "details" : "Bringing pizza to the world cup",
+                        "technology" : ["php", "redis", "ios", "rackspace", "ansible"],
+                        "logo" : "/images/dominos.svg",
+                        "secondary" : ""
+                    },
+                    {
+                        "name" : "Warner Brothers",
+                        "project" : "Studio Tour",
+                        "details" : "The Harry Potter experience",
+                        "technology" : ["php", "javascript", "google-maps", "facebook", "twitter"],
+                        "logo" : "/images/warner-brothers.svg",
+                        "secondary" : ""
+                    },
+                    {
+                        "name" : "Zizzi Restaurant",
+                        "project" : "Website & Party Planner",
+                        "details" : "Working with Zizzi to create their party planner experience, whilst also maintaining their booking system",
+                        "technology" : ["php", "javascript", "livebookings"],
+                        "logo" : "/images/zizzi.svg",
+                        "secondary" : ""
+                    }
+                ]
+            }
+        },
+        {
+            "type" : "Services",
+            "className" : "services",
+            "content" : {
+                "services" : [
+                    {
+                        "title" : "Website Development",
+                        "content" : "We can design and develop your web presence wether it be a simple site managed by our content management system or usage of our full e-commerce solution. We thrive on making custom solutions that work for both you and your customers."
+                    },
+                    {
+                        "title" : "Web Applications",
+                        "content": "Have the next big idea but no idea where to start?\r\nWe have experience helping large brands to showcase new R&D technology to helping new businesses establish concepts to seek venture capitalist funding."
+                    },
+                    {
+                        "title" : "Hosting & Performance",
+                        "content" : "We have and continue to operate websites that recieve millions of users per day.\r\nPerformance, security and quality of service are extremely important to us and your customers - Let us take the strain so you don't have to."
+                    }
+                ]
+            }
+        },
+        {
+            "type" : "Footer",
+            "content" : {
+                "telephone" : "0800 4582438",
+                "email" : "hello@threadstud.io"
+            }
+        }
+    ]
+}

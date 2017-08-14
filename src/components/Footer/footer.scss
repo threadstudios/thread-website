@@ -1,0 +1,40 @@
+footer {
+    background: #fff;
+    margin: 16px 0 0 0;
+    padding: 8px 0;
+    color: #323232;
+    font-family: "proxima-nova";
+    text-transform: uppercase;
+    font-size: rem(12);
+    letter-spacing: 0.1em;
+    p {
+        font-size: rem(12);
+        color: #323232;
+        float: right;
+    }
+    .container {
+        max-width: rem(768);
+        margin: 0 auto;
+    }
+    a, a:hover, a:active {
+        font-size: rem(16);
+        color: #323232;
+        font-family: "proxima-nova";
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    sup {
+        font-size: 0.55rem;
+        vertical-align: top;
+    }
+}
+
+@media only screen and (max-width : 768px) {
+ footer {
+     text-align: center;
+     p {
+         float: none;
+         margin-bottom: 0px;
+     }
+ }
+}

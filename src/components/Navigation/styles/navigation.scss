@@ -1,0 +1,21 @@
+nav {
+    text-align: center;
+    padding-top: 48px;
+    margin-bottom: 40px;
+
+    .logo__path {
+        stroke-dasharray: 1117;
+        stroke-dashoffset: 1117;
+        animation: dash 2.4s ease-out forwards;
+    }
+
+    svg {
+        padding-bottom: rem(24);
+    }
+
+    @keyframes dash {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+}
