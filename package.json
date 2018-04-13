@@ -58,7 +58,7 @@
     "start": "node ./src/server/index.js"
   },
   "engines": {
-    "node": "8.0"
+    "node": "9"
   },
   "name": "thread-website",
   "version": "0.1.0",

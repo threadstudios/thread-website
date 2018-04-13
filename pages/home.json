@@ -112,6 +112,29 @@
             }
         },
         {
+            "type" : "Supporting",
+            "className" : "supporting",
+            "content" : {
+                "organisations" : [
+                    {
+                        "title": "Leon Jeacock Racing",
+                        "content": "We support Leon Jeacock as he contests the British Superbikes Superstock 1000 title",
+                        "url": "https://www.facebook.com/GeoEDaviesracingleonjeacock/"
+                    },
+                    {
+                        "title": "Sapcote Library",
+                        "content": "Thread Studios supports the local Sapcote library, helping our local community and children's eductation.",
+                        "url": "https://www.facebook.com/GeoEDaviesracingleonjeacock/"
+                    },
+                    {
+                        "title": "Westerdale Racing",
+                        "content": "Thread Studios supports the up and coming Westerdale Racing team",
+                        "url": false
+                    }
+                ]
+            } 
+        },
+        {
             "type" : "Footer",
             "content" : {
                 "telephone" : "0800 4582438",
